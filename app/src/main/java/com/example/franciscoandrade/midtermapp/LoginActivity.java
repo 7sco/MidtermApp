@@ -44,6 +44,9 @@ public class LoginActivity extends AppCompatActivity {
             editor.putString("text1", text1.getText().toString());
             editor.putString("text2", text2.getText().toString());
             editor.commit();
+
+
+
         }
 
 
@@ -53,8 +56,9 @@ public class LoginActivity extends AppCompatActivity {
             intent.putExtra("email", text1.getText().toString());
             startActivity(intent);
 
-
         }
+
+
 
 
 

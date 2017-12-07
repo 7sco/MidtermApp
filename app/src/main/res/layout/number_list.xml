@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/itemRecycler"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    >
+
+    <TextView
+        android:id="@+id/recyclerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Number #"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
