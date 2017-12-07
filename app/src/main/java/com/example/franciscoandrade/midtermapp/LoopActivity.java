@@ -105,7 +105,6 @@ public class LoopActivity extends AppCompatActivity {
             text.setText("Loops completed: "+aVoid);
 
             Intent intent= new Intent(getApplicationContext(), LoginActivity.class);
-//            intent.putExtra("email", holder.email.getText().toString());
             startActivity(intent);
 
 
